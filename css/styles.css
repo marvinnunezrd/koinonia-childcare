@@ -412,6 +412,30 @@ p {
   border-top: 6px solid var(--red);
 }
 
+.cards-grid .service-card:nth-child(7) {
+  border-top: 6px solid var(--green);
+}
+
+.cards-grid .service-card:nth-child(8) {
+  border-top: 6px solid var(--yellow);
+}
+
+.cards-grid .service-card:nth-child(9) {
+  border-top: 6px solid var(--blue);
+}
+
+.cards-grid .service-card:nth-child(10) {
+  border-top: 6px solid var(--orange);
+}
+
+.cards-grid .service-card:nth-child(11) {
+  border-top: 6px solid var(--sky);
+}
+
+.cards-grid .service-card:nth-child(12) {
+  border-top: 6px solid var(--red);
+}
+
 /* ==========================================
    WHY US
 ========================================== */
@@ -698,6 +722,79 @@ p {
   .footer-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* ==========================================
+   BLOG ARTICLE
+========================================== */
+
+.article-content {
+  max-width: 900px;
+}
+
+.article-content h1 {
+  max-width: 850px;
+  margin-bottom: 28px;
+}
+
+.article-content .hero-text {
+  max-width: 760px;
+  margin-bottom: 36px;
+}
+
+.article-content h2 {
+  font-size: clamp(1.45rem, 2vw, 1.85rem);
+  line-height: 1.25;
+  margin-top: 42px;
+  margin-bottom: 14px;
+}
+
+.article-content p {
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+.article-content img {
+  width: 100%;
+  margin: 36px 0 28px;
+  border-radius: 22px;
+  box-shadow: var(--shadow-card);
+}
+
+.related-articles {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid #dfe5ea;
+}
+
+.related-articles h3 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.related-articles ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.related-articles li {
+  margin-bottom: 14px;
+}
+
+.related-articles a {
+  color: var(--brand-blue);
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.related-articles a:hover {
+  color: var(--brand-green);
+}
+
+.related-articles a::before {
+  content: "📖 ";
 }
 
 /* ==========================================
